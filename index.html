@@ -114,8 +114,22 @@
           </article>
         </section>
 
+        <section class="contract-demo" aria-labelledby="counter-title">
+          <div class="contract-copy">
+            <span class="section-kicker">SMART CONTRACT · COUNTER.SOL</span>
+            <h2 id="counter-title">链上计数器</h2>
+            <p>一个简单的 Solidity 合约示例。当前为浏览器本地演示，尚未连接已部署的合约。</p>
+          </div>
+          <div class="counter-controls">
+            <div class="counter-value" id="counter-value" aria-live="polite">0</div>
+            <button class="counter-button" id="counter-increment" type="button">+ 增加计数</button>
+            <button class="counter-reset" id="counter-reset" type="button" aria-label="重置计数">重置</button>
+          </div>
+        </section>
+
         <footer class="page-footer"><span>TERRA WEB3 DASHBOARD <i></i> 仅供展示</span><span>数据为模拟内容</span></footer>
       </main>
     </div>
+    <script src="app.js" defer></script>
   </body>
 </html>
